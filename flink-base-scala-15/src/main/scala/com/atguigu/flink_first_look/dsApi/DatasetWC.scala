@@ -26,6 +26,7 @@ object DatasetWC {
       .map((_, 1))
       .groupBy(0)
       .sum(1)
+
     resDS.print()
 
     //    resDS.writeAsCsv("output/01").setParallelism(1)
